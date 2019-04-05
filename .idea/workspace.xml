@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b422a5e8-5567-478e-98d3-0c48fdf870d1" name="Default" comment="" />
+    <list default="true" id="b422a5e8-5567-478e-98d3-0c48fdf870d1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,8 +71,8 @@
       <file leaf-file-name="Javelin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab3/Javelin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="248">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -89,15 +91,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab3/Rod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -227,12 +220,12 @@
       <workItem from="1550837547860" duration="302000" />
       <workItem from="1550837988013" duration="1194000" />
       <workItem from="1553212705436" duration="614000" />
-      <workItem from="1554455237008" duration="146000" />
+      <workItem from="1554455237008" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12390000" />
+    <option name="totallyTimeSpent" value="12743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,6 +238,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.22442588" />
@@ -282,13 +276,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab3/Javelin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -632,10 +619,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab3/Javelin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="248">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
