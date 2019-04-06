@@ -12,4 +12,5 @@ package ru.bstu.it31.romashenko.lab3;
 
 //TODO: class Kettlebell
 public class Kettlebell extends GymEquipment{
+
 }
