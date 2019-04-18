@@ -14,13 +14,17 @@ import java.util.Scanner;
 
 //TODO: class SportStock
 abstract public class SportStock {
+    protected String name;
     protected int sportType;
     protected int material;
     protected double massa;
 
-    public abstract int getSportType();
-    public abstract int getMaterial();
-    public abstract double getMassa();
+    protected abstract int getSportType();
+    protected abstract int getMaterial();
+    protected abstract double getMassa();
+    protected abstract String getName();
 
-    public abstract void init(Scanner scanner);
+    protected abstract void init(Scanner scanner);
+
+    public abstract String toString();
 }

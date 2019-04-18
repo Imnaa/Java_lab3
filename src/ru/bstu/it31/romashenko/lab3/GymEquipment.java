@@ -14,7 +14,11 @@ import java.lang.String;
 
 //TODO: class GymEquipment
 abstract public class GymEquipment extends SportStock {
-    private int id;
-    private String type;
+
+    /*
+    1. Штанга
+    2. Гиря
+     */
+    protected int gymType;
 
 }

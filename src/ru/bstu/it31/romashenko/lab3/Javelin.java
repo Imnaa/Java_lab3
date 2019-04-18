@@ -14,9 +14,18 @@ import java.util.Scanner;
 
 //TODO: class Javelin
 public class Javelin  extends SportStock {
+    private double weight;
+    private double diament;
 
-    protected String name;
+    public double getDiament() {
+        return diament;
+    }
 
+    public double getWeight() {
+        return weight;
+    }
+
+    @Override
     public String getName() {
         return name;
     }
@@ -38,23 +47,45 @@ public class Javelin  extends SportStock {
 
     @Override
     public void init(Scanner scanner) {
-        /*System.out.print("Введите тип спортивного инвентаря: ");
-        System.out.print("\t> 1. Мяч. Волейбольный.");
-        System.out.print("\t> 2. Мяч. Теннисный.");
-        System.out.print("\t> 3. Ракетка.");
-        System.out.print("\t> 4. Метательное копье.");
-        System.out.print("\t> 5. Тренажерный инвентарь. Штанга.");
-        System.out.print("\t> 6. Тренажерный инвентарь. Гиря.");*/
+        /*
+        1. Мяч
+        2. Ракетка
+        3. Метательное копье
+        4. Тренажерный инвентарь
+         */
+        System.out.println("Тип спортивного инвентаря: Метательное копье");
+        sportType = 3;
         //
-        sportType = 4;
+        System.out.println("Название: Метательное копье");
+        name = "Метательное копье";
+        //
         System.out.print("Введите массу в кг: ");
         massa = scanner.nextDouble();
+        scanner.nextLine();
+        //
         System.out.println("Введите тип материала:");
-        System.out.print("\t> 1. Аллюминий.");
-        System.out.print("\t> 2. Железо.");
-        System.out.print("\t> 3. Стекло.");
-
+        System.out.println("\t> 1. Аллюминий.");
+        System.out.println("\t> 2. Железо.");
+        System.out.println("\t> 3. Стекло.");
         material = scanner.nextInt();
+        scanner.nextLine();
+        //
+        System.out.print("Введите длину: ");
+        weight = scanner.nextDouble();
+        scanner.nextLine();
+        //
+        System.out.print("Введите диаметр");
+        diament = scanner.nextDouble();
+        scanner.nextLine();
+    }
 
+    @Override
+    public String toString() {
+        return "Тип спортивного инвентаря: Метательное копье" + "\n" +
+                "Название: "                + name          + "\n" +
+                "Масса: "                   + massa + " кг" + "\n" +
+                "Тип материала: "           + material      + "\n" +
+                "Длина: "                   + weight        + "\n" +
+                "Диаметр: "                 + diament       + "\n";
     }
 }
