@@ -37,22 +37,14 @@ public class TennisBall extends Ball {
         //
         System.out.print("Введите количкество пупырышек: ");
         countShipi = scanner.nextInt();
-        scanner.nextLine();
+        //scanner.nextLine();
         //
-        System.out.print("Введите массу в кг: ");
-        massa = scanner.nextDouble();
-        scanner.nextLine();
-        //
-        System.out.println("Введите тип материала:");
-        System.out.println("\t> 1. Аллюминий.");
-        System.out.println("\t> 2. Железо.");
-        System.out.println("\t> 3. Стекло.");
-        material = scanner.nextInt();
-        scanner.nextLine();
+        super.init(scanner);
+        //scanner.nextLine();
         //
         System.out.print("Введите радиус: ");
         radius = scanner.nextDouble();
-        scanner.nextLine();
+        //scanner.nextLine();
     }
 
     @Override

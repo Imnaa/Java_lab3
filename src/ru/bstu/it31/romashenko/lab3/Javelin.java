@@ -59,15 +59,7 @@ public class Javelin  extends SportStock {
         System.out.println("Название: Метательное копье");
         name = "Метательное копье";
         //
-        System.out.print("Введите массу в кг: ");
-        massa = scanner.nextDouble();
-        scanner.nextLine();
-        //
-        System.out.println("Введите тип материала:");
-        System.out.println("\t> 1. Аллюминий.");
-        System.out.println("\t> 2. Железо.");
-        System.out.println("\t> 3. Стекло.");
-        material = scanner.nextInt();
+        super.init(scanner);
         scanner.nextLine();
         //
         System.out.print("Введите длину: ");

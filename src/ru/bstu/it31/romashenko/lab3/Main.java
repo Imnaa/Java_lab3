@@ -103,8 +103,9 @@ public class Main {
                 sportStocks[i] = kettlebell;
             } else {
                 System.out.println("Вы ввели неверно тип инвентаря.");
-                --i;
+                //--i;
             }
+            scanner.nextLine();
         }
         //
         for (int i = 0; i < sportStocks.length; ++i) {

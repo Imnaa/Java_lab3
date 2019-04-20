@@ -55,15 +55,7 @@ public class Rod extends GymEquipment {
 
         gymType = 1;
         //
-        System.out.print("Введите массу в кг: ");
-        massa = scanner.nextDouble();
-        scanner.nextLine();
-        //
-        System.out.println("Введите тип материала:");
-        System.out.println("\t> 1. Аллюминий.");
-        System.out.println("\t> 2. Железо.");
-        System.out.println("\t> 3. Стекло.");
-        material = scanner.nextInt();
+        super.init(scanner);
         scanner.nextLine();
         //
         System.out.print("Штанга сборная (y/n) ? ");

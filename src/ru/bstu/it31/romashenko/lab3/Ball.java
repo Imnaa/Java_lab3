@@ -24,27 +24,18 @@ public class Ball extends SportStock {
         3. Метательное копье
         4. Тренажерный инвентарь
          */
-        System.out.println("Тип спортивного инвентаря: Мяч");
-        sportType = 1;
+        //System.out.println("Тип спортивного инвентаря: Мяч");
+        //sportType = 1;
         //
-        System.out.print("Введите название: ");
+        /*System.out.print("Введите название: ");
         name = scanner.nextLine();
-        scanner.nextLine();
+        scanner.nextLine();*/
         //
-        System.out.print("Введите массу в кг: ");
-        massa = scanner.nextDouble();
-        scanner.nextLine();
+        super.init(scanner);
         //
-        System.out.println("Введите тип материала:");
-        System.out.println("\t> 1. Аллюминий.");
-        System.out.println("\t> 2. Железо.");
-        System.out.println("\t> 3. Стекло.");
-        material = scanner.nextInt();
-        scanner.nextLine();
-        //
-        System.out.print("Введите радиус: ");
-        radius = scanner.nextDouble();
-        scanner.nextLine();
+        //System.out.print("Введите радиус: ");
+        //radius = scanner.nextDouble();
+        //scanner.nextLine();
     }
 
     @Override

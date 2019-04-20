@@ -24,7 +24,20 @@ abstract public class SportStock {
     protected abstract double getMassa();
     protected abstract String getName();
 
-    protected abstract void init(Scanner scanner);
+    public void init(Scanner scanner) {
+
+        //
+        System.out.print("Введите массу в кг: ");
+        massa = scanner.nextDouble();
+        scanner.nextLine();
+
+        System.out.println("Введите тип материала:");
+        System.out.println("\t> 1. Аллюминий.");
+        System.out.println("\t> 2. Железо.");
+        System.out.println("\t> 3. Стекло.");
+        material = scanner.nextInt();
+        scanner.nextLine();
+    }
 
     public abstract String toString();
 }
